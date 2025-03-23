@@ -41,7 +41,7 @@ function weather(city = 'jakarta') {
 `);
 
   $.ajax({
-    url: 'http://api.weatherapi.com/v1/current.json',
+    url: 'https://api.weatherapi.com/v1/current.json',
     type: 'get',
     dataType: 'json',
     data: {
